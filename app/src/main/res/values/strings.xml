@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Audiobook Club</string>
+
+    <string name="main_description">Home page showing the current library.</string>
+    <string name="now_playing_description">Has various button to control the actual audioplayer, like: pause/play, jump back/forwards etc.</string>
+    <string name="book_details_description">Makes it possible to buy this book, links to store to show other books by author/genre and shows a list of friends who have read it</string>
+    <string name="store_description">Contains a searchbar to browse for different books, shows list of books</string>
+    <string name="friends_description">Has a searchbar to look for new friends and shows a list of your current friends/search results</string>
+    <string name="friend_details_description">Shows some personal information about friend and shows which books your friend is reading/has read</string>
 </resources>

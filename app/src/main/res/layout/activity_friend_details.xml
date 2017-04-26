@@ -7,4 +7,8 @@
     android:orientation="vertical"
     tools:context="com.example.android.audiobookclub.FriendDetailsActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/friend_details_description"/>
 </LinearLayout>

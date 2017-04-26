@@ -7,4 +7,9 @@
     android:orientation="vertical"
     tools:context="com.example.android.audiobookclub.NowPlayingActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/now_playing_description"/>
+
 </LinearLayout>
