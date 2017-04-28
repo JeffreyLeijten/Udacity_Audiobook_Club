@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">Audiobook Club</string>
 
+    <string name="library">Library</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="book_details">Book Details</string>
+    <string name="store">Store</string>
+    <string name="friends">Friends</string>
+    <string name="friend_details">Friend Details</string>
+
     <string name="main_description">Home page showing the current library.</string>
     <string name="now_playing_description">Has various button to control the actual audioplayer, like: pause/play, jump back/forwards etc.</string>
     <string name="book_details_description">Makes it possible to buy this book, links to store to show other books by author/genre and shows a list of friends who have read it</string>
