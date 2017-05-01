@@ -8,8 +8,7 @@
     tools:context="com.example.android.audiobookclub.StoreActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextViewStyle"
         android:text="@string/store_description" />
 
     <Button
