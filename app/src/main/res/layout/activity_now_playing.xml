@@ -14,15 +14,11 @@
     <Button
         android:id="@+id/library_button"
         style="@style/ButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/library" />
 
     <Button
         android:id="@+id/book_details_button"
         style="@style/ButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/book_details" />
 
 </LinearLayout>

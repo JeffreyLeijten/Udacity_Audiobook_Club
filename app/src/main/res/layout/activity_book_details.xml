@@ -14,29 +14,21 @@
     <Button
         android:id="@+id/library_button"
         style="@style/ButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/library" />
 
     <Button
         android:id="@+id/now_playing_button"
         style="@style/ButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/now_playing" />
 
     <Button
         android:id="@+id/store_button"
         style="@style/ButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/store" />
 
     <Button
         android:id="@+id/friend_details_button"
         style="@style/ButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="@string/friend_details" />
 
 </LinearLayout>
