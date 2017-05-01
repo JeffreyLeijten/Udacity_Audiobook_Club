@@ -8,10 +8,27 @@
     <string name="friends">Friends</string>
     <string name="friend_details">Friend Details</string>
 
-    <string name="main_description">Home page showing the current library.</string>
-    <string name="now_playing_description">Has various button to control the actual audioplayer, like: pause/play, jump back/forwards etc.</string>
-    <string name="book_details_description">Makes it possible to buy this book, links to store to show other books by author/genre and shows a list of friends who have read it</string>
-    <string name="store_description">Contains a searchbar to browse for different books, shows list of books</string>
-    <string name="friends_description">Has a searchbar to look for new friends and shows a list of your current friends/search results</string>
-    <string name="friend_details_description">Shows some personal information about friend and shows which books your friend is reading/has read</string>
+    <string name="main_description">Home page showing the current library.\n
+        It shows a list of all the audiobooks currently on the phone, so it needs to retrieve the information about each book.\n
+        The most straightforward to do this is saving a text file for each audiobook on the phone.
+        This text file contains the information for that audiobook like current point in the book, name of the cover image, writer info etc.
+        The File class seems like it can offer this functionality</string>
+    <string name="now_playing_description">Has various button to control the actual audioplayer, like: pause/play, jump back/forwards etc.\n
+        This activity needs to play audio files and pause them. So a class which can control audio files and control the audio output of the phone is desired.\n
+        The combination of the Mediaplayer and Audiomanager classes seems to fullfil these roles.</string>
+    <string name="book_details_description">Makes it possible to buy this book, links to store to show other books by author/genre and shows a list of friends who have read it.\n
+        To buy a book, there is a connectivity to a collection of products needed.
+        Using Google Play\'s In-app Products this can be accomplished. In-app Billing will be used to pay for the product.\n
+        When a book isn\'t yet bought the information about the audiobook is retrieved the In-app Products database,
+        otherwise it will be imported directly from the information File.\n
+        To see which other friends have read it. The user Database, explained at the FriendsActivity will be used.</string>
+    <string name="store_description">Contains a searchbar to browse for different books, shows list of the books found.\n
+        The search funtion can be created using the Android Developer\'s guide: Creating a Search Interface.\n
+        The results shown are retrieved from a specific Database which has a collection of all the books offered.
+        For this too an SQL-datbase is used.</string>
+    <string name="friends_description">Has a searchbar to look for new friends and shows a list of your current friends/search results.\n
+        It needs access to an online database where information of all users is stored and from there extract information from it.
+        It seems the database can implemented using an SQL-database.</string>
+    <string name="friend_details_description">Shows some personal information about friend and shows which books your friend is reading/has read.\n
+        This page shows more detailed information from the user database so it has the same challenges and solutions as the FriendsActivity</string>
 </resources>
