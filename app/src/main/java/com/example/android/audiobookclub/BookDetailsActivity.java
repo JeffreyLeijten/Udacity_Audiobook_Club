@@ -21,6 +21,7 @@ public class BookDetailsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent libraryIntent = new Intent(BookDetailsActivity.this, MainActivity.class);
                 startActivity(libraryIntent);
+                finish();
             }
         });
 
@@ -30,6 +31,7 @@ public class BookDetailsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent nowPlayingIntent = new Intent(BookDetailsActivity.this, NowPlayingActivity.class);
                 startActivity(nowPlayingIntent);
+                finish();
             }
         });
 
@@ -39,6 +41,7 @@ public class BookDetailsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent storeIntent = new Intent(BookDetailsActivity.this, StoreActivity.class);
                 startActivity(storeIntent);
+                finish();
             }
         });
 
@@ -48,6 +51,7 @@ public class BookDetailsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent friendDetailsIntent = new Intent(BookDetailsActivity.this, FriendDetailsActivity.class);
                 startActivity(friendDetailsIntent);
+                finish();
             }
         });
     }

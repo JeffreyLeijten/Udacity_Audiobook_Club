@@ -19,6 +19,7 @@ public class FriendDetailsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent libraryIntent = new Intent(FriendDetailsActivity.this, MainActivity.class);
                 startActivity(libraryIntent);
+                finish();
             }
         });
 
@@ -28,6 +29,7 @@ public class FriendDetailsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent bookDetailsIntent = new Intent(FriendDetailsActivity.this, BookDetailsActivity.class);
                 startActivity(bookDetailsIntent);
+                finish();
             }
         });
 
@@ -37,7 +39,15 @@ public class FriendDetailsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent storeIntent = new Intent(FriendDetailsActivity.this, StoreActivity.class);
                 startActivity(storeIntent);
+                finish();
             }
         });
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent friendsIntent = new Intent(FriendDetailsActivity.this, FriendsActivity.class);
+        startActivity(friendsIntent);
+        finish();
     }
 }

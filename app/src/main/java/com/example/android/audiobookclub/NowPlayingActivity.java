@@ -19,6 +19,7 @@ public class NowPlayingActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent libraryIntent = new Intent(NowPlayingActivity.this, MainActivity.class);
                 startActivity(libraryIntent);
+                finish();
             }
         });
 
@@ -28,6 +29,7 @@ public class NowPlayingActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent bookDetailsIntent = new Intent(NowPlayingActivity.this, BookDetailsActivity.class);
                 startActivity(bookDetailsIntent);
+                finish();
             }
         });
     }

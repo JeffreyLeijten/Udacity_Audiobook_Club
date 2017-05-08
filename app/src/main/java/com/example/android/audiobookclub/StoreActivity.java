@@ -19,6 +19,7 @@ public class StoreActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent libraryIntent = new Intent(StoreActivity.this, MainActivity.class);
                 startActivity(libraryIntent);
+                finish();
             }
         });
 
@@ -28,6 +29,7 @@ public class StoreActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent bookDetailsIntent = new Intent(StoreActivity.this, BookDetailsActivity.class);
                 startActivity(bookDetailsIntent);
+                finish();
             }
         });
     }

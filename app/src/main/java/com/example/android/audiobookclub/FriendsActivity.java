@@ -19,6 +19,7 @@ public class FriendsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent libraryIntent = new Intent(FriendsActivity.this, MainActivity.class);
                 startActivity(libraryIntent);
+                finish();
             }
         });
 
@@ -28,6 +29,7 @@ public class FriendsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent friendDetailsIntent = new Intent(FriendsActivity.this, FriendDetailsActivity.class);
                 startActivity(friendDetailsIntent);
+                finish();
             }
         });
     }
